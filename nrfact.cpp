@@ -7,7 +7,7 @@ int factorial(int n){
 	int i;
 		for(i=1; i <= n; i++)
 			fact *= i;
-	cout << "Factorialul lui " << n << "este" << fact;
+	cout << "Factoril of " << n << "is" << fact;
 	return 0;
 }
 
